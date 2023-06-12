@@ -1,0 +1,38 @@
+.skill-type{
+    width: 100%;
+    background-color: rgb(45, 45, 45);
+    text-align: center;
+    padding: 15px 0;
+    margin:20px 0;
+    border-radius: 15px;
+}
+
+
+.skill-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.skill-title{
+    color:white;
+    margin: 15px;
+}
+
+.skill{
+    padding: 5px;
+    margin: 0 10px;
+    color: rgb(255, 243, 232);
+}
+
+.skill img {
+    height: 70px;
+    width: 70px;
+}
+
+.skill-name{
+    font-size: 20px;
+}

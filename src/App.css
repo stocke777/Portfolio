@@ -1,0 +1,16 @@
+.App {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f0f0;
+  background-image: linear-gradient(to right, #a6a8a8, #83a4d4);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+
