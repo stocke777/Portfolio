@@ -17,7 +17,11 @@ function ProjectDisplay() {
         <b>Skills:</b> {project.skills}
       </p>
       <div className="image-container">
+        <a href={project.link}>
       <img src={Github} alt="github"/>
+      <p>View Code</p>
+      </a>
+      
       </div>
 
       <div>

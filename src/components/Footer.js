@@ -9,12 +9,10 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <InstagramIcon />
-        <TwitterIcon />
-        <FacebookIcon />
-        <LinkedInIcon />
+        <a href= "https://www.instagram.com/jaivardhan215/"><InstagramIcon /></a>
+        <a href="https://www.linkedin.com/in/jaivardhan-deshwal-8612a71aa/"><LinkedInIcon /></a>
       </div>
-      <p> &copy; 2022 deshwaljaivardhan@gmail.com</p>
+      <p> &copy; 2023 deshwaljaivardhan@gmail.com</p>
     </div>
   );
 }

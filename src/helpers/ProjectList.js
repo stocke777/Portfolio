@@ -18,35 +18,41 @@ export const ProjectList = [
     image: Proj1,
     gif: gif1,
     skills: "NextJS, MongoDB, NextAuth",
+    link: "https://github.com/stocke777/nextjs-blog"
   },
   {
     name: "Restaurant HomePage",
     image: Proj2,
     gif: gif2,
     skills: "NextJs, Framer Motion, Tailwind",
+    link: "https://github.com/stocke777/Restaurant"
   },
   {
     name: "Ecommerce Design Samples",
     image: Proj3,
     gif: gif3,
     skills: "NextJS, Tailwind",
+    link: "https://github.com/stocke777/ecommerce-2"
   },
   {
     name: "Background Animation",
     image: Proj4,
     gif: gif4,
     skills: "React, HTML, CSS",
+    link: "https://github.com/stocke777/Storybook"
   },
   {
     name: "Rain Quiz",
     gif: gif5,
     image: Proj5,
     skills: "React, HTML, CSS",
+    link: "https://github.com/stocke777/RainQuiz"
   },
   {
     name: "A * Algorithm Visualier",
     gif: gif6,
     image: Proj6,
     skills: "Python, Pygame",
+    link: "https://github.com/stocke777/Shortest-Path-Visual---A-Star-Algorithm"
   },
 ];

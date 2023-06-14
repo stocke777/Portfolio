@@ -32,9 +32,29 @@
   height: 100px;
   position: relative;
   object-fit: contain;
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+}
+
+.image-container:hover{
+  background-color: whitesmoke;
+  border-radius: 10px;
 }
 
 .image-container img{
   width: 100px;
   height: auto;
+}
+
+.image-container a{
+  text-decoration: none;
+}
+.image-container p{
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  margin: 0;
+  text-decoration: none;
+  font-weight: 600;
 }
