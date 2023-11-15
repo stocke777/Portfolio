@@ -18,12 +18,14 @@ function Home() {
 				<Typing />
 				<div className='prompt'>
 					<p>A software developer with a passion for learning and creating.</p>
+					<a href="https://drive.google.com/drive/folders/10faFJbXVb6dx0yeWiA7GKRutv1ZCfx08?usp=sharing">
 					<button
 						class='button-69'
 						type='button'
 					>
 						View Resume
 					</button>
+					</a>
 				</div>
 			</div>
 			<div className='skills'>
