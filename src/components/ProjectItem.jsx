@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "../styles/ProjectItem.css"
+import "../styles/ProjectItem.css";
 function ProjectItem({ image, name, id, gif }) {
   const navigate = useNavigate();
   return (
@@ -10,7 +10,9 @@ function ProjectItem({ image, name, id, gif }) {
         navigate("/project/" + id);
       }}
     >
-      <div className="gif-container"><img src={gif} /></div>
+      <div className="gif-container">
+        <img alt="image" src={gif} />
+      </div>
 
       {/* <div style={{ backgroundImage: `url(${image})` }} className="bgImage" /> */}
       <h1> {name} </h1>
