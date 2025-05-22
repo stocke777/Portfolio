@@ -45,7 +45,7 @@
   background-image: linear-gradient(#eb2edb 0, #52e4ee 100%);
   border-radius: 5px;
   border-style: none;
-  box-shadow: rgba(245, 244, 247, .25) 0 1px 1px inset;
+  box-shadow: rgba(245, 244, 247, 0.25) 0 1px 1px inset;
   color: #fff;
   cursor: pointer;
   display: inline-block;
@@ -57,7 +57,7 @@
   margin-left: -4px;
   outline: 0;
   text-align: center;
-  transition: all .3s cubic-bezier(.05, .03, .35, 1);
+  transition: all 0.3s cubic-bezier(0.05, 0.03, 0.35, 1);
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -66,7 +66,7 @@
 }
 
 .button-69:hover {
-  opacity: .7;
+  opacity: 0.7;
 }
 
 @media screen and (max-width: 1000px) {
@@ -88,7 +88,7 @@
 }
 
 .skills h1 {
-  color: #3e497a;
+  color: #ffffff;
 }
 
 .skills .list {
@@ -98,6 +98,45 @@
 
 .list span {
   font-size: 20px;
+}
+
+.social-media-links {
+  display: flex;
+  gap: 18px;
+  margin-top: 36px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-icon {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(60, 73, 122, 0.08);
+  cursor: pointer;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.social-icon:hover {
+  transform: scale(1.12) rotate(-3deg);
+  box-shadow: 0 4px 16px rgba(60, 73, 122, 0.18);
+}
+
+.contact-info {
+  margin-top: 30px;
+  font-size: 1rem;
+}
+
+.contact-info a {
+  color: #3e497a;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 600px) {

@@ -1,38 +1,83 @@
-.skill-type{
-    width: 100%;
-    background-color: rgb(45, 45, 45);
-    text-align: center;
-    padding: 15px 0;
-    margin:20px 0;
-    border-radius: 15px;
+.skill-type {
+  width: 100%;
+  background: linear-gradient(90deg, #e0c3fc 0%, #8ec5fc 100%);
+  text-align: center;
+  padding: 18px 0 10px 0;
+  margin: 24px 0;
+  border-radius: 18px;
+  box-shadow: 0 2px 16px rgba(140, 180, 255, 0.1);
 }
 
-
-.skill-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+.skill-title {
+  color: transparent;
+  margin: 14px 0 18px 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  background: linear-gradient(90deg, #7f53ac 0%, #f7971e 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-shadow: 0 2px 8px rgba(140, 180, 255, 0.12), 0 1px 2px #fff;
 }
 
-.skill-title{
-    color:white;
-    margin: 15px;
+.skill-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  gap: 18px;
 }
 
-.skill{
-    padding: 5px;
-    margin: 0 10px;
-    color: rgb(255, 243, 232);
+.skill {
+  padding: 8px 12px;
+  margin: 0 10px 10px 10px;
+  color: #3e497a;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(140, 180, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.18s, box-shadow 0.18s;
+}
+
+.skill:hover {
+  transform: translateY(-4px) scale(1.06);
+  box-shadow: 0 4px 16px #fcb6d0, 0 2px 8px #8ec5fc;
 }
 
 .skill img {
-    height: 70px;
-    width: 70px;
+  height: 60px;
+  width: 60px;
+  margin-bottom: 6px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 1px 6px #e0c3fc;
 }
 
-.skill-name{
-    font-size: 20px;
+.skill-name {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #f92bbe;
+  letter-spacing: 0.5px;
+  margin-top: 2px;
+}
+
+@media (max-width: 700px) {
+  .skill-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .skill-type {
+    padding: 12px 0 6px 0;
+  }
+  .skill-title {
+    font-size: 1.2rem;
+  }
+  .skill img {
+    height: 48px;
+    width: 48px;
+  }
 }
